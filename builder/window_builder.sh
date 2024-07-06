@@ -86,7 +86,7 @@ build_window_format() {
   fi
 
   if [ "$window_number_position" = "left" ]; then
-    final_window_format="$show_left_separator$show_number$show_middle_separator$show_text$show_right_separator"
+    final_window_format="$show_text"
   fi
 
   echo "$final_window_format"

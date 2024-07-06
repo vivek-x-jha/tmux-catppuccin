@@ -82,8 +82,8 @@ main() {
   set status-right-length "100"
 
   # messages
-  set message-style "fg=${magenta},bg=${message_background},align=centre"
-  set message-command-style "fg=${magenta},bg=${message_background},align=centre"
+  set message-style "fg=${thm_pink},bg=${message_background},align=centre"
+  set message-command-style "fg=${thm_pink},bg=${message_background},align=centre"
 
   # panes
   local pane_border_status pane_border_style \
