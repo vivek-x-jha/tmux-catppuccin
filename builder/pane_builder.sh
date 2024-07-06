@@ -56,7 +56,7 @@ build_pane_format() {
 
     if [ "$pane_number_position" = "left" ]
     then
-      final_pane_format="$show_left_separator$show_number$show_middle_separator$show_text$show_right_separator"
+      final_pane_format="$show_left_separator$show_text$show_right_separator"
     fi
 
     echo "$final_pane_format"
