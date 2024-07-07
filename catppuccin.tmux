@@ -82,7 +82,7 @@ main() {
   set status-right-length "100"
 
   # messages
-  set message-style "fg=${thm_green},bg=${message_background},align=centre"
+  set message-style "fg=${thm_pink},bg=${message_background},align=centre"
   set message-command-style "fg=${thm_pink},bg=${message_background},align=centre"
 
   # panes
