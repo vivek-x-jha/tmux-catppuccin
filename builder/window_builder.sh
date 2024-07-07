@@ -10,7 +10,7 @@ build_window_format() {
   if [ "$window_status_enable" = "yes" ]; then
     local icon
     icon="$(build_window_icon)"
-    text="$text$icon"
+    text="$icon$text"
   fi
 
   if [ "$fill" = "none" ]; then
