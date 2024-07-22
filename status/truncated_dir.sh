@@ -34,8 +34,9 @@ show_truncated_dir() {
   local color="$(get_tmux_option "@catppuccin_truncated_dir_color" "default")"
   local text="$( get_tmux_option "@catppuccin_truncated_dir_text"  "#{pane_current_path}")"
 
-  module=$(build_status_module "$index" "$icon" "$color" "$text")
+  local shortened_text="$(shorten_path "$text")"
+
+  module=$(build_status_module "$index" "$icon" "$color" "$shortened_text")
 
   echo "$module"
 }
-
