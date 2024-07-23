@@ -30,9 +30,9 @@ show_truncated_dir() {
   }
 
   local index=$1 # This variable is used internally by the module loader in order to know the position of this module
-  local icon="$( get_tmux_option "@catppuccin_truncated_dir_icon"  " ")"
-  local color="$(get_tmux_option "@catppuccin_truncated_dir_color" "default")"
-  local text="$( get_tmux_option "@catppuccin_truncated_dir_text"  "#{pane_current_path}")"
+  local icon="$(get_tmux_option "@catppuccin_truncated_dir_icon" " ")"
+  local color="$(get_tmux_option "@catppuccin_truncated_dir_color" "")"
+  local text="$(get_tmux_option "@catppuccin_truncated_dir_text" "#{pane_current_path}")"
 
   local shortened_text="$(shorten_path "$text")"
 
