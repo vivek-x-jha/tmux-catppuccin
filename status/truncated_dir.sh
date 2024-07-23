@@ -22,7 +22,7 @@ show_truncated_dir() {
       done
       # Add the last part of the path (filename or last directory)
       shortened_path+="/${last_part}"
-  else
+    else
       shortened_path="$path"
     fi
 
