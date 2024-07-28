@@ -4,7 +4,7 @@ show_date_time() {
   index=$1
   icon="$(get_tmux_option "@catppuccin_date_time_icon" " ")"
   color="$(get_tmux_option "@catppuccin_date_time_color" "")"
-  text="$(get_tmux_option "@catppuccin_date_time_text" "%a %b %d %I:%M %p")"
+  text="$(get_tmux_option "@catppuccin_date_time_text" "%a %b %d %I:%M%p")"
 
   module=$(build_status_module "$index" "$icon" "$color" "$text")
 
