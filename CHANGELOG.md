@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/vivek-x-jha/tmux-sourdiesel/compare/v0.1.0...v0.2.0) (2024-08-05)
+
+
+### Features
+
+* releases ([#260](https://github.com/vivek-x-jha/tmux-sourdiesel/issues/260)) ([5fbacdf](https://github.com/vivek-x-jha/tmux-sourdiesel/commit/5fbacdf3559cf4496eef02aead087b3bb715e570))
+
 ## [0.1.0](https://github.com/catppuccin/tmux/compare/v0.0.1...v0.1.0) (2024-08-04)
 
 
